@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18940" started-at="2018-05-14T01:46:24Z" finished-at="2018-05-14T01:46:43Z">
+    <groups>
+      <group name="info">
+        <method signature="LoginTestCase.insertTextAdmin()[pri:0, instance:testCases.LoginTestCase@68be2bc2]" name="insertTextAdmin" class="testCases.LoginTestCase"/>
+        <method signature="LoginTestCase.insertTextPassword()[pri:0, instance:testCases.LoginTestCase@68be2bc2]" name="insertTextPassword" class="testCases.LoginTestCase"/>
+      </group> <!-- info -->
+    </groups>
+    <test name="Default test" duration-ms="18940" started-at="2018-05-14T01:46:24Z" finished-at="2018-05-14T01:46:43Z">
+      <class name="testCases.LoginTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginTestCase@68be2bc2]" name="setUp" is-config="true" duration-ms="12827" started-at="2018-05-13T22:46:24Z" finished-at="2018-05-13T22:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertTextAdmin()[pri:0, instance:testCases.LoginTestCase@68be2bc2]" name="insertTextAdmin" duration-ms="1131" started-at="2018-05-13T22:46:37Z" finished-at="2018-05-13T22:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTextAdmin -->
+        <test-method status="PASS" signature="insertTextPassword()[pri:0, instance:testCases.LoginTestCase@68be2bc2]" name="insertTextPassword" duration-ms="1120" started-at="2018-05-13T22:46:38Z" finished-at="2018-05-13T22:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTextPassword -->
+        <test-method status="PASS" signature="clickLogin()[pri:0, instance:testCases.LoginTestCase@68be2bc2]" name="clickLogin" duration-ms="3838" depends-on-groups="info" started-at="2018-05-13T22:46:39Z" finished-at="2018-05-13T22:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+      </class> <!-- testCases.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
