@@ -1,4 +1,4 @@
-# Workshop IBM Selenium | Parte 2
+# Workshop IBM Selenium | Parte 2 | TestNG
 
 Projeto (parte 2) com a ferramenta Selenium para desenvolvimento de um workshop a ser realizado para os colegas da IBM.
 
